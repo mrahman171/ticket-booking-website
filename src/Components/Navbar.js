@@ -8,13 +8,22 @@ const Navbar = () => {
       <ul className="navbar-list">
         <li className="navbar-item">
           <Link to="/" className="navbar-link">Home</Link>
+        </li>         
+        <li className="navbar-item">
+          <Link to="/Event" className="navbar-link">Event</Link>
         </li>
+        
+
+        <li className="navbar-item">
+          <Link to="/TicketPurchase" className="navbar-link">TicketPurchase</Link>
+        </li>
+
+
         <li className="navbar-item">
           <Link to="/registration" className="navbar-link">Registration</Link>
         </li>
-        <li className="navbar-item">
-          <Link to="/login" className="navbar-link">Login</Link>
-        </li>
+
+
       </ul>
     </nav>
   );

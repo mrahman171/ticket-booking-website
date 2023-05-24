@@ -12,6 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+   
  
 }
 
@@ -20,6 +21,7 @@ body {
   padding: 25px;
   height: 10%;
   width: 100%;
+ 
    
 }
 
@@ -382,3 +384,177 @@ body {
   padding-top: 5%;
   margin-top: 2%;
 }
+
+.event-search-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.event-search-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.event-search-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-search-button:hover {
+  background-color: #555;
+}
+
+
+
+.event-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.event-info-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.event-info-value {
+  font-weight: normal;
+}
+
+.view-details-link {
+  margin-top: 10px;
+}
+
+
+
+
+.event-details-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-details-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.event-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.event-info-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.event-info-value {
+  font-weight: normal;
+}
+
+.back-to-events-link {
+  margin-top: 10px;
+}
+
+
+
+
+
+.ticket-purchase-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.ticket-purchase-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.seat-selection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.seat {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.selected-seats {
+  margin-top: 20px;
+}
+
+.total-cost {
+  margin-top: 20px;
+}
+
