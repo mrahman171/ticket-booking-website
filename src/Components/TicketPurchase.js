@@ -58,6 +58,13 @@ const TicketPurchase = ({ event }) => {
 
           <h3>Total Cost:</h3>
           <p>{totalCost}</p>
+           
+          <div className="seat-selection">
+          
+          <button className="payment" >Payment
+           
+          </button>
+          </div>
         </div>
       )}
     </div>

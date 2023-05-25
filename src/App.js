@@ -8,7 +8,7 @@ import NAV from './Components/Navbar';
 import Footer from './Components/Footer';
 import EventPage from './Components/EventPage';
 import EventDetailsPage from './Components/EventDetails';
-import TicketPurchase from './Components/TicketPurchase';
+import EventSearch from './Components/EventSearch';
  
 const App = () => {
   return (
@@ -18,7 +18,8 @@ const App = () => {
           <Route path="/" Component={HomePage} />
           <Route path="/registration" Component={RegistrationPage} />
           <Route path="/login" Component={LoginPage} />
-          <Route path="/Event" Component={EventPage} />          
+          <Route path="/Event" Component={EventPage} /> 
+          <Route path="/EventsSearch" Component={EventSearch} />          
           <Route path="/TicketPurchase" Component={EventDetailsPage} />
       </Routes>
       <Footer/>

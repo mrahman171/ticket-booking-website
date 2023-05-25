@@ -1,21 +1,16 @@
-import React, { useState } from 'react';
+import React, {  useState  } from 'react';
 import "../App.css";
+import EventPage from '../Components/EventPage';
 
 const EventSearch = ({ onSearch }) => {
+ 
   const [location, setLocation] = useState('');
   const [eventType, setEventType] = useState('');
   const [date, setDate] = useState('');
   const [artist, setArtist] = useState('');
 
   const handleSearch = () => {
-    const searchCriteria = {
-      location,
-      eventType,
-      date,
-      artist,
-    };
-
-    onSearch(searchCriteria);
+     
   };
 
   return (
@@ -57,9 +52,10 @@ const EventSearch = ({ onSearch }) => {
           className="event-search-input"
         />
       </div>
-      <button onClick={handleSearch} className="event-search-button">
+      <button  className="event-search-button">
         Search
       </button>
+       
     </div>
   );
 };

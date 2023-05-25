@@ -9,7 +9,13 @@
       "seats": [
         {"id": 1, "name": "Seat A1"},
         {"id": 2, "name": "Seat A2"},
-        {"id": 3, "name": "Seat A3"} 
+        {"id": 3, "name": "Seat A3"},
+        {"id": 4, "name": "Seat A4"},
+        {"id": 5, "name": "Seat A5"}, 
+        {"id": 6, "name": "Seat A6"},
+        {"id": 7, "name": "Seat A7"},
+        {"id": 8, "name": "Seat A8"},
+        {"id": 9, "name": "Seat A9"}   
          
       ]
     },
@@ -21,11 +27,77 @@
       "location": "Example Theatre",
       "price": 80,
       "seats": [
-        {"id": 1, "name": "Seat 1"},
-        {"id": 2, "name": "Seat 2"},
-        {"id": 3, "name": "Seat 3"} 
+        {"id": 1, "name": "Seat A1"},
+        {"id": 2, "name": "Seat A2"},
+        {"id": 3, "name": "Seat A3"},
+        {"id": 4, "name": "Seat A4"},
+        {"id": 5, "name": "Seat A5"}, 
+        {"id": 6, "name": "Seat A6"},
+        {"id": 7, "name": "Seat A7"},
+        {"id": 8, "name": "Seat A8"},
+        {"id": 9, "name": "Seat A9"}  
     ]
-    } 
+    },
+    {
+      "id": 1,
+      "title": "Concert",
+      "date": "2023-06-15",
+      "time": "19:00",
+      "location": "Example Venue",
+      "price": 50,
+      "seats": [
+        {"id": 1, "name": "Seat A1"},
+        {"id": 2, "name": "Seat A2"},
+        {"id": 3, "name": "Seat A3"},
+        {"id": 4, "name": "Seat A4"},
+        {"id": 5, "name": "Seat A5"}, 
+        {"id": 6, "name": "Seat A6"},
+        {"id": 7, "name": "Seat A7"},
+        {"id": 8, "name": "Seat A8"},
+        {"id": 9, "name": "Seat A9"}   
+         
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Concert",
+      "date": "2023-06-15",
+      "time": "19:00",
+      "location": "Example Venue",
+      "price": 50,
+      "seats": [
+        {"id": 1, "name": "Seat A1"},
+        {"id": 2, "name": "Seat A2"},
+        {"id": 3, "name": "Seat A3"},
+        {"id": 4, "name": "Seat A4"},
+        {"id": 5, "name": "Seat A5"}, 
+        {"id": 6, "name": "Seat A6"},
+        {"id": 7, "name": "Seat A7"},
+        {"id": 8, "name": "Seat A8"},
+        {"id": 9, "name": "Seat A9"}  
+         
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Concert",
+      "date": "2023-06-15",
+      "time": "19:00",
+      "location": "Example Venue",
+      "price": 50,
+      "seats": [
+        {"id": 1, "name": "Seat A1"},
+        {"id": 2, "name": "Seat A2"},
+        {"id": 3, "name": "Seat A3"},
+        {"id": 4, "name": "Seat A4"},
+        {"id": 5, "name": "Seat A5"}, 
+        {"id": 6, "name": "Seat A6"},
+        {"id": 7, "name": "Seat A7"},
+        {"id": 8, "name": "Seat A8"},
+        {"id": 9, "name": "Seat A9"}  
+         
+      ]
+    }  
     
   ]
   
