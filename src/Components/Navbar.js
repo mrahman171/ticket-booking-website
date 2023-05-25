@@ -12,12 +12,12 @@ const Navbar = () => {
         <li className="navbar-item">
           <Link to="/Event" className="navbar-link">Events</Link>
         </li>
-        <li className="navbar-item">
-          <Link to="/EventsSearch" className="navbar-link">EventsSearch</Link>
-        </li>
-
+         
         <li className="navbar-item">
           <Link to="/TicketPurchase" className="navbar-link">TicketPurchase</Link>
+        </li>
+        <li className="navbar-item">
+          <Link to="/EventsSearch" className="navbar-link">EventsSearch</Link>
         </li>
 
 

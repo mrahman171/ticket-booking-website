@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import "../App.css";
  
 
 const EventPage = () => {
+  const navigate = useNavigate();
+  const navigateToPayment = () => {
+
+    navigate('/TicketPurchase');
+  };
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
@@ -48,9 +53,12 @@ const EventPage = () => {
 
 
           </div>
-          <Link to={`/Event/${event.id}`} className="view-details-link">
-            View Details
-          </Link>
+          <div className="seat-selection">
+
+            <button className="payment" onClick={navigateToPayment} >Bookin Now
+
+            </button>
+          </div>
         </div>
       ))}
     </div>

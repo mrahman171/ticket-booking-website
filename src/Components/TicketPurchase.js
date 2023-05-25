@@ -1,25 +1,31 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import "../App.css";
 
 const TicketPurchase = ({ event }) => {
+  const navigate = useNavigate();
+  const navigateToPayment = () => {
+
+    navigate('/Payment');
+  };
   const [selectedSeats, setSelectedSeats] = useState([]);
   const [totalCost, setTotalCost] = useState(0);
 
   const handleSeatSelection = (seat) => {
     if (selectedSeats.includes(seat)) {
-       
+
       setSelectedSeats(selectedSeats.filter((selectedSeat) => selectedSeat !== seat));
     } else {
-      
+
       setSelectedSeats([...selectedSeats, seat]);
     }
   };
 
   const calculateTotalCost = () => {
-     
+
     const seatCost = selectedSeats.length * event.price;
-    const taxes = seatCost * 0.1;  
-    const fees = selectedSeats.length * 2;  
+    const taxes = seatCost * 0.1;
+    const fees = selectedSeats.length * 2;
     const total = seatCost + taxes + fees;
     setTotalCost(total);
   };
@@ -45,7 +51,7 @@ const TicketPurchase = ({ event }) => {
         ))}
       </div>
 
-      <button onClick={calculateTotalCost}>Calculate Total Cost</button>
+      <button className="payment" onClick={calculateTotalCost}>Calculate Total Cost</button>
 
       {selectedSeats.length > 0 && (
         <div>
@@ -58,12 +64,12 @@ const TicketPurchase = ({ event }) => {
 
           <h3>Total Cost:</h3>
           <p>{totalCost}</p>
-           
+
           <div className="seat-selection">
-          
-          <button className="payment" >Payment
-           
-          </button>
+
+            <button className="payment" onClick={navigateToPayment} >Payment
+
+            </button>
           </div>
         </div>
       )}

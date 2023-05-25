@@ -1,6 +1,6 @@
 import React, {  useState  } from 'react';
 import "../App.css";
-import EventPage from '../Components/EventPage';
+ 
 
 const EventSearch = ({ onSearch }) => {
  
@@ -9,9 +9,7 @@ const EventSearch = ({ onSearch }) => {
   const [date, setDate] = useState('');
   const [artist, setArtist] = useState('');
 
-  const handleSearch = () => {
-     
-  };
+   
 
   return (
     <div className="event-search-container">
